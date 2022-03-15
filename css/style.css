@@ -149,7 +149,7 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  cursor: url("../../img/img/04.png") 24 24, pointer;
+  cursor: url("../img/img/04.png") 24 24, pointer;
 }
 .game:hover .game__counter:after {
   -webkit-animation: timer_1 60s infinite steps(60) forwards;
