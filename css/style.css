@@ -174,8 +174,8 @@ body {
 .game__body:before, .game__body:after {
   content: "";
   pointer-events: all;
-  width: 33.333vw;
-  height: 33.333vh;
+  width: 25vw;
+  height: 25vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -183,13 +183,13 @@ body {
 }
 .game__body:before {
   background: #b3ce3b;
-  -webkit-animation: fly_1 3s infinite;
-          animation: fly_1 3s infinite;
+  -webkit-animation: fly_1 5s infinite;
+          animation: fly_1 5s infinite;
 }
 .game__body:after {
   background: #65ce3b;
-  -webkit-animation: fly_2 7s infinite;
-          animation: fly_2 7s infinite;
+  -webkit-animation: fly_2 12s infinite;
+          animation: fly_2 12s infinite;
 }
 .game__body:hover .game__text {
   visibility: visible;
@@ -226,8 +226,8 @@ body {
 .game__items:before, .game__items:after {
   content: "";
   pointer-events: all;
-  width: 33.333vw;
-  height: 33.333vh;
+  width: 25vw;
+  height: 25vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -235,8 +235,8 @@ body {
 }
 .game__items:before {
   background: #3779dd;
-  -webkit-animation: fly_3 5s infinite;
-          animation: fly_3 5s infinite;
+  -webkit-animation: fly_3 8s infinite;
+          animation: fly_3 8s infinite;
 }
 .game__items:after {
   background: #ce3b8c;
